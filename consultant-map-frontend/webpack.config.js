@@ -4,7 +4,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: [
-    './src/js/index.js'
+    './src/script/index.ts'
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -17,7 +17,7 @@ module.exports = {
   },
   module: {
     rules: [
-      {
+      /*{
         test: /\.js$/,
         exclude: /(node_modules|bower_components)/,
         use: [
@@ -28,6 +28,11 @@ module.exports = {
             }
           }
         ]
+      },*/
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /(node_modules|bower_components)/,
       },
       {
         test: /\.scss$/,
@@ -47,6 +52,9 @@ module.exports = {
         use: ['html-loader']
       }
     ]
+  },
+  resolve: {
+    extensions: [ '.tsx', '.ts', '.js' ],
   },
   plugins: [
     new MiniCssExtractPlugin({

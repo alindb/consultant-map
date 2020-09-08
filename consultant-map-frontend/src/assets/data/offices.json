@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Stockholm",
+    "address": "Jakobsbergsgatan 22, 11144 Stockholm",
+    "coordinates": [
+      59.3348465,
+      18.0691966
+    ]
+  },
+  {
+    "id": "Väst",
+    "address": "Stora Nygatan 31, 41108 Göteborg",
+    "coordinates": [
+      57.7042885,
+      11.971398017208
+    ]
+  },
+  {
+    "id": "Östersund",
+    "address": "Prästgatan 42, 83133 Östersund",
+    "coordinates": [
+      63.1760486,
+      14.6347179
+    ]
+  },
+  {
+    "id": "Norrsken",
+    "address": "Timmermansgatan 22, 97231 Luleå",
+    "coordinates": [
+      65.58504055,
+      22.1552958893886
+    ]
+  },
+  {
+    "id": "Syd",
+    "address": "Norra Vallgatan 90, 21122 Malmö",
+    "coordinates": [
+      55.606627,
+      12.9957009980604
+    ]
+  },
+  {
+    "id": "Öst",
+    "address": "Järnvägsgatan 10, 58222 Linköping",
+    "coordinates": [
+      58.4148011,
+      15.6269538
+    ]
+  }
+]
